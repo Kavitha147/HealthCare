@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+  font-family: "lucida console", courier, monospace;
+}
+input {
+  outline: none;
+  border: none;
+  border-radius: 60px 30px;
+  padding: 5px;
+}
+button,
+#sub {
+  cursor: pointer;
+}
+#temp {
+  margin-left: 40px;
+}
+#phone {
+  margin-left: 15px;
+}
+#pname {
+  margin-left: 80px;
+}
+#age {
+  margin-left: 90px;
+}
+
+textarea {
+  padding: 20px;
+  outline: none;
+  border: none;
+  border-radius: 60px 30px;
+}
+#sub {
+  background-color: pink;
+  margin-top: 20px;
+}
+.link,
+.name,
+.pass,
+#user,
+#pass {
+  margin-left: 10px;
+}

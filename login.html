@@ -2,29 +2,25 @@
 <html>
 <head>
 	<title>LOGIN</title>
-	<link rel="stylesheet" href="style4.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<script>
-		function login(){
-			location.replace("patient.html")
-		}
-	</script>
-<form action="login.php" method="POST">
+	
+<form action="patient.html" method="POST">
 	<center>
 	
 		<h1>PATIENT LOGIN</h1>
 	<table>
 		<tr>
-			<td>UserName:<input type="text" name="UserName" id="us" required placeholder="   Enter UserName"></span></td>
+			<td>UserName:<input required type="text" name="UserName"  class="name"  placeholder="   Enter UserName"></span></td>
 		</tr>
 		<tr>
-			<td><br>Password:<input type="password" name="Password" id="ps" required placeholder="   Enter Password"></span></td>
+			<td><br>Password:<input required type="password" name="Password" class="pass"  placeholder="   Enter Password"></span></td>
 		</tr>
 		<tr>
-		<td><br><center><button onclick="login()" id="sub">LOGIN</button></center></td>
+		<td><br><center><button  id="sub">LOGIN</button></center></td>
 		</tr>
-		<tr><td><br><p> New User?<a href="reg.html">Register</a></p></td></tr>
+		<tr><td><br><p> New User?<a href="reg.html" class="link">Register</a></p></td></tr>
 	</table>
 	</center>
 </form>

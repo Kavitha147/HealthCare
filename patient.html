@@ -1,33 +1,104 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Form</title>
-	<link rel="stylesheet" href="style4.css">
-</head>
-<body>
-<form>
-	<center>
-		<h1>PATIENT FORM</h1>
-		<table>
-			<tr><td>Patient Name:<input type="text"id="pn" name="pname" placeholder="   Enter Name"></td></tr>
-			<tr><td><br>Patient Age:<input type="number" id="pa"name="age" placeholder="   Enter Age"></td></tr>
-	   <tr><td><br>Body Temperature:<input type="number" id="temp" name="temp" placeholder="   Enter Temperature"></td></tr>
-	</table>
- <p id="p">Have you ever had any of the following?</p>
- <input type="radio" id="dia"  name="problem" value="dia">
-   <label for="dia">Diabetes</label>
-  <input type="radio" id="hyp" name="problem" value="hyp">
-  <label for="hyp">Hypertension</label>
-  <input type="radio" id="heart" name="problem"  value="heart">
-  <label for="heart">Heart Patient</label>
-  <input type="radio" id="no" name="problem" value="no">
-  <label for="no">None of these</label><br><br><br>
-  <br><label for="us" id="prob">Problem:</label><br><br>
-<textarea rows="4" cols="50" id="prob1" name="des"  placeholder="    Enter Problem"></textarea><br><br>
-<table><tr><td>Place:<input type="text" id="plc" name="place" placeholder="   Enter Place"></td></tr>
-<tr><td><center><br><input type="submit" name="submit"id="sub"></center></td></tr>
-</table>
-</center>
-</form>
-</body>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function submisson() {
+        alert("Our Hospital Team will Get back to You Soon");
+      }
+    </script>
+  </head>
+  <body>
+    <form onsubmit="submisson()">
+      <center>
+        <h1>PATIENT FORM</h1>
+        <table>
+          <tr>
+            <td>
+              Patient Name:<input
+                type="text"
+                id="pname"
+                name="pname"
+                placeholder="   Enter Name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br />Patient Age:<input
+                type="number"
+                id="age"
+                name="age"
+                placeholder="   Enter Age"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br />Body Temperature:<input
+                type="number"
+                id="temp"
+                name="temp"
+                placeholder="   Enter Temperature"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br />
+              Emergency ContactNo:<input
+                type="number"
+                name="PhoneNo"
+                required
+                id="phone"
+                placeholder="     Enter PhoneNo"
+              />
+            </td>
+          </tr>
+        </table>
+        <p id="p">Have you ever had any of the following?</p>
+        <input type="radio" id="dia" name="problem" value="dia" />
+        <label for="dia">Diabetes</label>
+        <input type="radio" id="hyp" name="problem" value="hyp" />
+        <label for="hyp">Hypertension</label>
+        <input type="radio" id="heart" name="problem" value="heart" />
+        <label for="heart">Heart Patient</label>
+        <input type="radio" id="no" name="problem" value="no" />
+        <label for="no">None of these</label><br /><br /><br />
+        <br /><label for="us" id="prob">Problem:</label><br /><br />
+        <textarea
+          rows="4"
+          cols="50"
+          id="prob1"
+          name="des"
+          placeholder="    Enter Problem"
+          required
+        ></textarea
+        ><br /><br />
+        <table>
+          <tr>
+            <td>
+              Place:<input
+                type="text"
+                id="inputelement"
+                name="place"
+                placeholder="   Enter Place"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <br /><input type="submit" name="submit" id="sub" />
+              </center>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </form>
+  </body>
 </html>

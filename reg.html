@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>REGISTER</title>
-	<link rel="stylesheet" href="style4.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<script>
@@ -22,13 +22,14 @@
 		}
 		
 </script>
-	<form action="reg.php" method="POST" onsubmit="return validate()">
+	<form action="login.html" method="POST" onsubmit="return validate()">
 		<center>
 	<h1>PATIENT REGISTER</h1>
-	<table><tr><td>UserName:<input type="text" id="user" name="UserName" placeholder="   Enter Username"></td></tr>
-	<tr><td><br>Password:<input type="Password" name="Password" id="pass" placeholder="   Enter Password"></td></tr>
-	<tr><td><br>PhoneNo:<input type="number" name="PhoneNo" id="phone" placeholder="     Enter PhoneNo"></td></tr>
+	<table><tr><td>UserName:<input type="text" id="user" required name="UserName" placeholder="   Enter Username"></td></tr>
+	<tr><td><br>Password:<input type="Password" name="Password" required id="pass" placeholder="   Enter Password"></td></tr>
+	<tr><td><br>PhoneNo:<input type="number" name="PhoneNo" required id="phone" placeholder="     Enter PhoneNo"></td></tr>
 	<tr><td><br><center><input type="submit" name="submit" id="sub" value="REGISTER"></center></td></tr>
+	<tr><td><br><center><a href="login.html">BACK</a></center></td></tr>
 </table>
 </center>
 </body>
