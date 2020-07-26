@@ -1,0 +1,99 @@
+body{
+background-color:lightblue;
+font-family:"lucida console",courier,monospace;
+}
+#us{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-top:30px;
+margin-left:30px;
+}
+#ps{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-top:30px;
+margin-left:30px;
+}
+#pn{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-bottom:20px;
+margin-left:60px;
+}
+#user{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-top:30px;
+margin-left:30px;
+}
+#pass{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-top:30px;
+margin-left:30px;
+}
+#phone{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-top:30px;
+margin-left:40px;
+}
+#pa{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-bottom:20px;
+margin-left:70px;
+}
+#temp{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-bottom:20px;
+margin-left:100px;
+}
+#prob{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-bottom:20px;
+margin-right:290px;
+}
+#prob1{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-left:270px;
+}
+#p{
+margin-left:10px;
+}
+#dia{
+margin-left:220px;
+}
+#plc{
+border-radius: 60px 30px;
+outline: none;
+border:none;
+margin-top:40px;
+margin-right:80px;
+margin-left:70px;
+}
+textarea{
+padding: 20px;
+}
+#sub{
+outline: none;
+border:none;
+border-radius: 60px 30px;
+background-color: pink;
+margin-top:20px;
+}
+
+

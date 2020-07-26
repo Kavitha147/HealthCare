@@ -1,1 +1,0 @@
-This healthcare is created for sample working with html css bootstrap.
